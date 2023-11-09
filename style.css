@@ -1,0 +1,113 @@
+html{
+    background-image: url(./Assets/Illustrations+Logo/All-pages/arrière_plan.png);
+    background-size: 1920px 3943px;
+    background-position: center;
+    margin: 0;
+}
+:root{
+    --white-color--:#FFFFFF;
+    --off-white--: #F2CEF2;
+    --light-violet--:#9e93b3;
+    --pink-violet--:#DF99F2;
+    --blue-violet--:#601abb;
+    --light-blue--:#07338C;
+    --black-blue--:#021740; 
+}
+@font-face {
+    font-family: 'BEYNO';
+    src: url(./police/BEYNO.ttf)
+}
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url(./police/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'PantheraRegular';
+    src: url(./police/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: 'WakandaForever-Regular';
+    src: url(./police/WakandaForever-Regular.ttf);
+}
+/*Design de header*/
+h1{
+    font-family: 'PantheraRegular';
+    font-size: 68px;
+    color: #9e93b3;
+    margin-left: 70px;
+    margin-top: 340px;
+}
+h2{
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: #9e93b3;
+    margin-left: 70px;
+    margin-top: 340px;
+}
+#abc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    margin-left: 70px;
+    margin-right: 40px;
+}
+ul{
+    list-style: none;
+}
+nav ul a{
+    color: var(--white-color--);
+    margin-left: 150px;
+    font-family: 'BEYNO';
+    font-size: 30px;
+    text-decoration: none;
+}
+.horizontal-list li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 10px;
+}
+/* Section de la premiere partie de wakanda accueil*/
+#waka{
+    background-image: url(./Assets/Illustrations+Logo/Accueil/Pantherhome1..png);
+    height: 1000px;
+    background-position: right 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-top: 100px;
+    color: var(--white-color--);
+}
+.wakawaka{
+    display: flex;
+    font-family: 'PantheraRegular';
+    font-size: 68px;
+    margin-left: 10px;
+    margin-top: 340px;
+    margin-bottom: 0;
+}
+.forever{
+    font-style: normal;
+    font-size: 32px;
+    font-family: 'BEYNO';
+    margin-left: 10px;
+    margin-top: -400px;
+}
+.text{
+    color: var(--white-color);
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+    margin-right: 800px;
+    margin-left: 80px;
+    text-align: justify;
+}
+.text1{
+    color: var(--white-color);
+    font-family: 'Cantarell-Regular';
+    font-size: 15px;
+    margin-right: 800px;
+    margin-left: 80px;
+    text-align: justify;
+    text-decoration-line: underline;
+}
+
