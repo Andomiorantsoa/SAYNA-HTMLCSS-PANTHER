@@ -72,10 +72,11 @@ nav ul a{
 #waka{
     background-image: url(./Assets/Illustrations+Logo/Accueil/Pantherhome1..png);
     height: 1000px;
-    background-position: right 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-position-x: right;
     margin-top: 100px;
+    background-size: cover;
     color: var(--white-color--);
 }
 .wakawaka{
@@ -111,3 +112,79 @@ nav ul a{
     text-decoration-line: underline;
 }
 
+#wakanda-personnage{
+    background-color: var(--light-blue--);
+    margin-left: 0px;
+    margin-right: -20px;
+}
+.content{
+    justify-content: flex-end;
+    align-items: center;
+}
+.image, .texte{
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 100%;
+    display: flex; 
+    margin: 0 auto;  
+}
+.soratra{
+    display: inline;
+    text-align: start;
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+    margin-left: -60px;
+    margin-top: 40px;
+}
+h3{
+    font-family: 'BEYNO';
+    font-size: 20px;
+    color: #9e93b3;
+}
+.two-column-container {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 800px;
+    margin-bottom: 90px;
+    margin-top: -200px;
+}
+.two-column-container1 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 800px;
+    margin-bottom: 90px;
+    margin-top: -450px;
+}
+.two-column-container2 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 800px;
+    margin-bottom: 90px;
+    margin-top: -450px;
+    font-size: 20px;
+}
+.text-column, .image-column {
+    break-inside: avoid;
+    padding: 20px;
+}
+.image-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.font{
+    display: inline;
+    text-align: start;
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+}
+.oui {
+    font-family: 'BEYNO';
+    font-size: 20px;
+    color: #9e93b3;
+    margin-left: 70px;
+    margin-top: 340px;
+}
