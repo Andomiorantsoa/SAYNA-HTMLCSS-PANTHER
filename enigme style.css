@@ -1,0 +1,102 @@
+:root{
+    --white-color--:#FFFFFF;
+    --off-white--: #F2CEF2;
+    --light-violet--:#9e93b3;
+    --pink-violet--:#DF99F2;
+    --blue-violet--:#601abb;
+    --light-blue--:#07338C;
+    --black-blue--:#021740; 
+}
+@font-face {
+    font-family: 'BEYNO';
+    src: url(./police/BEYNO.ttf)
+}
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url(./police/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'PantheraRegular';
+    src: url(./police/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: 'WakandaForever-Regular';
+    src: url(./police/WakandaForever-Regular.ttf);
+}
+/*Design de header*/
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./Assets/Illustrations+Logo/All-pages/arrière_plan.png);
+}
+h1{
+    font-family: 'PantheraRegular';
+    font-size: 68px;
+    color: #9e93b3;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+h2{
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: #9e93b3;
+    margin-left: 70px;
+    margin-top: 340px;
+}
+
+.abc{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+nav{
+    margin-left: 10px;
+    margin-right: -10px;
+}
+ul{
+    list-style: none;
+}
+nav ul a{
+    color: var(--white-color--);
+    margin-left: 150px;
+    font-family: 'BEYNO';
+    font-size: 30px;
+    text-decoration: none;
+}
+.horizontal-list li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: -20px;
+    text-decoration: underline;
+    background: none;
+    font-size: 10px;   
+}
+
+.fille{
+    width: 1200px;
+    height: 1200px;
+    margin-top: -800px;
+    margin-left: 100px;
+}
+
+.un{
+    margin-left: 1200px;
+    font-size: 52px;
+    margin-top: 200px;
+}
+
+.text{
+    color: var(--white-color--);
+    font-family: 'Cantarell-Regular';
+    font-size: 15px;
+    margin-left: 980px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.miakatra{
+    margin-top: -400px;
+    background-image: url(./Assets/Illustrations+Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+}

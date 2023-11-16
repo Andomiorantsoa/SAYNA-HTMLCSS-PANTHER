@@ -1,0 +1,211 @@
+html{
+    background-image: url(./Assets/Illustrations+Logo/All-pages/arrière_plan.png);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color--:#FFFFFF;
+    --off-white--: #F2CEF2;
+    --light-violet--:#9e93b3;
+    --pink-violet--:#DF99F2;
+    --blue-violet--:#601abb;
+    --light-blue--:#07338C;
+    --black-blue--:#021740; 
+}
+@font-face {
+    font-family: 'BEYNO';
+    src: url(./police/BEYNO.ttf)
+}
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url(./police/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'PantheraRegular';
+    src: url(./police/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: 'WakandaForever-Regular';
+    src: url(./police/WakandaForever-Regular.ttf);
+}
+/*Design de header*/
+h1{
+    font-family: 'PantheraRegular';
+    font-size: 68px;
+    color: #9e93b3;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+h2{
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: #9e93b3;
+    margin-left: 70px;
+    margin-top: 340px;
+}
+
+.pic{
+    background: none;
+    width: 60%;
+    height: 80%;
+    margin-right: -5000px;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+
+.scroll{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 50px;
+    top: 350px;
+ }
+ .scroll .social{
+    padding: 10px 0;
+ }
+ .tsipika-lava{
+    content: "";
+    border-left: 3px solid var(--light-violet--);
+    position: fixed;
+    top: 0;
+    width: 1px;
+    height: 60%;
+    left: 60px;
+ }
+ .tsipika-fohy{
+    content: "";
+    border-left: 3px solid var(--light-violet--);
+    position: fixed;
+    top: 0;
+    width: 1px;
+    height: 83%;
+    left: 40px;
+ } 
+
+#abc{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+nav{
+    margin-left: 10px;
+    margin-right: -10px;
+}
+ul{
+    list-style: none;
+}
+nav ul a{
+    color: var(--white-color--);
+    margin-left: 150px;
+    font-family: 'BEYNO';
+    font-size: 30px;
+    text-decoration: none;
+}
+.horizontal-list li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: -20px;
+    text-decoration: underline;
+    background: none;
+}
+.wakawaka{
+    margin-top: 150px;
+    font-size: 10px;
+}
+.forever{
+    margin-top: -320px;
+}
+.text{
+    color: var(--white-color--);
+    font-family: 'Cantarell-Regular';
+    font-size: 12px;
+    margin-right: 620px;
+    margin-left: 80px;
+    text-align: justify;
+}
+.text1{
+    color: var(--white-color--);
+    font-family: 'Cantarell-Regular';
+    font-size: 15px;
+    margin-right: 800px;
+    margin-left: 80px;
+    text-align: justify;
+    text-decoration-line: underline;
+}
+
+/*Design sary telo*/
+.bandy{
+    width: 250px;
+    height: 300px;
+    margin-left: -600px;
+}
+.sipabe{
+    width: 180px;
+    height: 230px;
+}
+.sipa{
+    width: 130px;
+    height: 230px;
+}
+.soratra{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+    margin-left: -60px;
+    margin-top: 40px;
+}
+h3{
+    font-family: 'BEYNO';
+    font-size: 20px;
+    color: #9e93b3;
+}
+.wakanda-personnage{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: var(--light-blue--);
+}
+.image, .texte{
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 100%;
+    display: flex; 
+    margin: 0 auto;  
+}
+.soratra{
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+}  
+
+.wakanda-personnage{
+    display: flex;
+}
+.element{
+    text-align: center;
+}
+.element img {
+    max-width: 100%;
+    height: auto;
+}
+
+.soratra{
+    text-align: center;
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+    
+}
+.kill{
+    margin-top: -250px;
+    margin-left: -200px;
+}
+.oui {
+    margin-left: 200px;
+}

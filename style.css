@@ -69,15 +69,9 @@ nav ul a{
     font-size: 10px;
 }
 /* Section de la premiere partie de wakanda accueil*/
+
 #waka{
-    background-image: url(./Assets/Illustrations+Logo/Accueil/Pantherhome1..png);
-    height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-x: right;
     margin-top: 100px;
-    background-size: cover;
-    color: var(--white-color--);
 }
 .wakawaka{
     display: flex;
@@ -86,6 +80,12 @@ nav ul a{
     margin-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    
+}
+.pic{
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
 }
 .forever{
     font-style: normal;
@@ -95,7 +95,7 @@ nav ul a{
     margin-top: -400px;
 }
 .text{
-    color: var(--white-color);
+    color: var(--white-color--);
     font-family: 'Cantarell-Regular';
     font-size: 10px;
     margin-right: 800px;
@@ -103,7 +103,7 @@ nav ul a{
     text-align: justify;
 }
 .text1{
-    color: var(--white-color);
+    color: var(--white-color--);
     font-family: 'Cantarell-Regular';
     font-size: 15px;
     margin-right: 800px;
@@ -142,6 +142,7 @@ h3{
     font-size: 20px;
     color: #9e93b3;
 }
+
 .two-column-container {
     display: flex;
     margin-left: 70px;
@@ -187,4 +188,36 @@ h3{
     color: #9e93b3;
     margin-left: 70px;
     margin-top: 340px;
+}
+.tchala{
+    margin-left: 600px;
+    margin-top: -2000px;
+}
+.fotsy{
+    margin-top: 2000px;
+    background: fixed;
+    background-color: var(--white-color--);
+    width: 500px;
+    height: 600px;
+    margin-top: -400px;
+    margin-bottom: -300px;
+}
+.ray{
+    margin-top: 200px;
+    color: black;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 200px;
+}
+
+.lili{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none; 
+}
+.image{
+    width: 300px;
+    height: auto;
 }
